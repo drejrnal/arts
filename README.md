@@ -1,5 +1,5 @@
 # ARTS每周分享
->A：**Algorithm** leetcode算法题解答
+>A:**Algorithm** leetcode算法题解答
 >
 >R:**Review** 阅读英文技术文章并写观后感
 >
