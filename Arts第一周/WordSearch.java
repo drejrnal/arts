@@ -2,10 +2,7 @@ package TrieTree;
 
 import java.util.*;
 
-/**
- * @Author:毛翔宇
- * @Date 2019-03-20 10:17 ,2019-03-21 10:20
- */
+
 public class WordSearch {
 
     public class TrieNode{
@@ -38,6 +35,9 @@ public class WordSearch {
         }
     }
 
+    /*
+    wordSearch
+    */
     public boolean exist(char[][] board, String word){
         int[] rowMove = {1,-1,0,0};
         int[] colMove = {0,0,1,-1};
@@ -69,6 +69,9 @@ public class WordSearch {
         return false;
     }
 
+    /*
+    wordSearch2
+    */
     public List<String> findWords(char[][] board, String[] words){
         List<String> res = new LinkedList<>();
         TrieTree trieTree = new TrieTree();
