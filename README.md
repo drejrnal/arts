@@ -8,4 +8,4 @@
 >S:**Share** 分享对于技术、人生的思考
 
 * 2019
-  * ARTS第一周 https://github.com/drejrnal/arts/blob/master/Arts第一周/ARTS01-0324.md
+  * ARTS第一周 https://github.com/drejrnal/arts/blob/master/Artsweekone/ARTS01-0324.md
