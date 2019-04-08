@@ -1,10 +1,6 @@
 package BackTracking;
 
-/**
- * @Author:毛翔宇
- * @Date 2019-04-02 17:47
- * 区分：正则表达式（元字符）匹配 // 通配符匹配
- */
+
 
 public class SymbolMatch {
 
@@ -74,7 +70,11 @@ public class SymbolMatch {
         return dp[0][0];
     }
 
+    
 
+    /*
+    通配符匹配 递归 超时
+    */
     public static boolean wildcardMatch(String s,String p){
         if (s.isEmpty()) {
             //return p.isEmpty() || p.equals("*");
@@ -100,7 +100,9 @@ public class SymbolMatch {
             return true;
         return false;
     }
-
+    /*
+    通配符匹配 动态规划填表法
+    */
     public static void wildcardMatch(String s,String p,boolean[][] mem){
         for (int i = s.length()-1;i>=0;i--){
             for (int j = p.length()-1;j>=0;j--){
